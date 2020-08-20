@@ -1,0 +1,51 @@
+body{
+	min-height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-family: 'Ubuntu', sans-serif;
+}
+
+.colorCard{
+	display: block;
+	text-align: center;
+	background: white;
+	width: 40vw;
+	height: 45vh;
+	border-radius: 3%;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+h1{
+	font-size: 2rem;
+	padding: 2rem 0 0 0;
+	color:#808080;
+}
+
+.colorContainer{
+	background-color: black;
+	width: 450px;
+	height: 150px;
+	margin: auto;
+	border-radius: 20px;
+	display: block;
+}
+
+.colorHex{
+	float: right;
+	margin-top: 5.5rem;
+	margin-right: 1.5rem;
+	width: 5rem;
+	color: whitesmoke;
+	font-size: 18px;
+ 	padding: 5px;
+ 	border: 1px solid;
+}
+
+hr{
+	background: #808080;
+	margin-top: 2.5rem;
+	margin-bottom: 2.5rem;
+	width: 45%;
+	text-align: center;
+}
